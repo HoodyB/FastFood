@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,7 +16,7 @@
 <input type="text" name="userr" id="user" class="form-control"placeholder="Ingrese aqui" require><br>
 <label>Contraseña:</label>
 <input type="password" name="passw" id="pass" class="form-control" placeholder="Ingrese aqui" require>
-<button type="submit" class="btn btn-primary" id="enviar">Iniciar Sesión</button>
+<button type="submit" class="btn btn-primary" id="enviar">Iniciar Sesion</button>
 </form>
 </div>
 </body>
