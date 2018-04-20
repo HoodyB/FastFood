@@ -2,8 +2,8 @@
 class Conexion {
   protected $server="localhost";
   protected $user="root";
-  protected $pass="Besiddes97";
-  protected $bdd="fastfood";
+  protected $pass="Fastfood";
+  protected $bdd="Fastfood";
   protected $cone;
   public function conectar()
   {
