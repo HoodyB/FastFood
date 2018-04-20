@@ -26,7 +26,7 @@ class buscaru extends Conexion{
      where usuario='$u' and contra='$p' ");
      $filas=$consulta->num_rows;
 
-      if($filas>0) echo "BIENVENIDO". $u;
+      if($filas>0) echo "HOLA BIENVENIDO". $u;
       else echo "NO EXISTES EN EL SISTEMA :("; 
   }
 }
