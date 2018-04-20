@@ -13,7 +13,7 @@ class Conexion {
     $bd=$this->bdd;
     $this->cone=new mysqli($s,$u,$p,$bd);
     if($this->cone->connect_errno){
-        echo "Error al conectarse con la base de datos:
+        echo "Errorr al conectarse con la base de datos:
          ".$this->cone->connect_error;
     }
     return $this->cone;
