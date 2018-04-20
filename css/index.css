@@ -18,19 +18,19 @@ H1{
     margin-left: 42%;
     margin-top: 2%;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
+
+	/* disable webkit text size adjust (for iPhone) */
+	#div-main {
+        width: 50%;
+        margin-left: 15%;
+    }
+}
+@media screen and (max-width: 500px) {
 
 	/* disable webkit text size adjust (for iPhone) */
 	#div-main {
         width: 80%;
-        margin-left: 11%;
-    }
-}
-@media screen and (max-width: 400px) {
-
-	/* disable webkit text size adjust (for iPhone) */
-	#div-main {
-        width: 70%;
         margin-left:8%;
     }
 }
