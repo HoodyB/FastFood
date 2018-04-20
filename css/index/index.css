@@ -1,0 +1,54 @@
+body{
+ background: blueviolet;
+}
+#div-main{
+    width: 40%;
+    margin-left: 32%;
+    margin-top: 10%;
+    font-family: 'BotonFuente';
+    display: inline-block;
+}
+H1{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'BotonFuente';
+    font-style: initial;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+
+	/* disable webkit text size adjust (for iPhone) */
+	#div-main {
+        width: 100%;
+        margin-left:0%;
+    }
+    .boton{
+        width: 30%;
+        font-size: 1.0em;
+    }
+}
+@media screen and (max-width: 900px) {
+
+	/* disable webkit text size adjust (for iPhone) */
+	#div-main {
+        width: 80%;
+        margin-left:10%;
+    }
+    .boton{
+        width: 30%;
+        font-size: 1.0em;
+    }
+}
+@media screen and (max-width: 400px) {
+
+	/* disable webkit text size adjust (for iPhone) */
+	#div-main {
+        width: 100%;
+        margin-left:0%;
+    }
+    .boton{
+        width: 30%;
+        font-size: 1.0em;
+    }
+}
