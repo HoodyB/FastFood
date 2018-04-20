@@ -22,9 +22,9 @@ class Conexion {
 class buscaru extends Conexion{
   public function validar($u,$p)
   {
-    $consulta=$this->cone->query("SELECT *FROM usuarios
-     where usuario='$u' and contra='$p' ");
-     $filas=$consulta->num_rows;
+    $con=$this->cone->query("SELECT *FROM usuarios
+     where user='$u' and contraseña='$p' ");
+     $filas=$con->num_rows;
 
       if($filas>0) echo "HOLA BIENVENIDO". $u;
       else echo "NO EXISTES EN EL SISTEMA :("; 
