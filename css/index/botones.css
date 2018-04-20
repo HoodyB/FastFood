@@ -1,0 +1,11 @@
+.boton{
+    background: darkorchid;
+    width: 35%;
+    display:block;
+    margin: 5% auto;
+    font-size: 1.8em;
+    border: 2px solid black;
+    color: white;
+    border-radius: 10px;
+    font-family: 'BotonFuente';
+}
