@@ -2,8 +2,8 @@
 class Conexion {
   protected $server="localhost";
   protected $user="root";
-  protected $pass="Fastfood";
-  protected $bdd="Fastfood";
+  protected $pass="Besiddes97";
+  protected $bdd="fastfood";
   protected $cone;
   public function conectar()
   {
@@ -13,7 +13,7 @@ class Conexion {
     $bd=$this->bdd;
     $this->cone=new mysqli($s,$u,$p,$bd);
     if($this->cone->connect_errno){
-        echo "Errorr al conectarse con la base de datos:
+        echo "Error al conectarse con la base de datos:
          ".$this->cone->connect_error;
     }
     return $this->cone;
@@ -22,12 +22,12 @@ class Conexion {
 class buscaru extends Conexion{
   public function validar($u,$p)
   {
-    $con=$this->cone->query("SELECT *FROM usuarios
-     where user='$u' and contraseña='$p' ");
-     $filas=$con->num_rows;
+    $consulta=$this->cone->query("SELECT *FROM usuario
+     where usua='$u' and contra='$p' ");
+     $filas=$consulta->num_rows;
 
-      if($filas>0) echo "HOLA BIENVENIDO". $u;
-      else echo "NO EXISTES EN EL SISTEMA :("; 
+      if($filas>0) echo "BIENVENIDO". $u;
+      else echo "NO EXISTES EN EL SISTEMA :(";
   }
 }
 ?>
