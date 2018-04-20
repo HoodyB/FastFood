@@ -19,9 +19,8 @@
 <label>Contraseña:</label>
 <input type="password" name="passw" id="pass" class="form-control" placeholder="Ingrese aqui" require>
 <button  class="boton" id="enviar">Iniciar Sesión</button>
-<div method="post" action"../controlador/registro.php">
-  <button type="submit" name="Re" value="REGISTRATE"></button>
-</div>
+<a href="controlador/registro.php"></a>
+<button class="button" id="reg">Registrate!</button>
 </form>
 </div>
 </body>
